@@ -6,4 +6,4 @@
 
   - [MLflow Documentation](https://mlflow.org/docs/latest/index.html)
 
-  - MakinaRocks - [ML Engineer를 위한 MLOps](https://mlops-for-mle.github.io/tutorial/) (BOAZ 23-1 방학 스터디 MLoops 스터디 자료)
+  - MakinaRocks - [ML Engineer를 위한 MLOps](https://mlops-for-mle.github.io/tutorial/)
