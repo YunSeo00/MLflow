@@ -2,10 +2,12 @@
 
 ### 주제 : Spark MLlib with MLflow
 ### 사용 스택 <br>
+<div>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white"/>
 <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white"/>
+</div>
 
 ### 세션 자료
 - [Notion Link](https://messy-farmer-90e.notion.site/Spark-MLlib-with-MLflow-5a570324349f4aa38ca94c86cc68e7b7)
