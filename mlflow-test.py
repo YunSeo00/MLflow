@@ -11,8 +11,9 @@ import os
 
 
 ## 환경변수 설정
-os.environ["MLFLOW_S3_ENDPOINT_URL"] = "http://192.168.0.14:9000"
-os.environ["MLFLOW_TRACKING_URI"] = "http://192.168.0.14:5001"
+Gateway = "[여기에 게이트웨이 주소를 입력해주세요]"
+os.environ["MLFLOW_S3_ENDPOINT_URL"] = f"http://{Gateway}:9000"
+os.environ["MLFLOW_TRACKING_URI"] = f"http://{Gateway}:5001"
 os.environ["AWS_ACCESS_KEY_ID"] = "minio"
 os.environ["AWS_SECRET_ACCESS_KEY"] = "miniostorage"
 
@@ -45,7 +46,7 @@ numericCols = [field for (field, dataType) in trainDF.dtypes if ((dataType == "d
 assemblerInputs = indexOutputCols + numericCols
 vecAssembler = VectorAssembler(inputCols = assemblerInputs,
                                outputCol = "features")
-rf = RandomForestRegressor(labelCol = "price", maxBins = 40, maxDepth = args.maxDepth, numTrees = 10, seed = 42)
+rf = RandomForestRegressor(labelCol = "price", maxBins = 40, maxDepth = args.maxDepth, numTrees = 5, seed = 42)
 pipeline = Pipeline(stages = [stringIndexer, vecAssembler, rf])
 
 
