@@ -36,15 +36,9 @@ services:
 
     command: server /data/minio --console-address :${MINIO_PORT_EXTERNAL}
     healthcheck:
-      test:
-        [
-          "CMD",
-          "curl",
-          "-f",
-          "http://localhost:${MINIO_PORT_INTERNAL}/minio/health/live",
-        ]
-      interval: 30s
-      timeout: 20s
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 5s
+      timeout: 5s
       retries: 3
 
   mlflow-server:
