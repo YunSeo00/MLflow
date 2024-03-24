@@ -10,7 +10,10 @@
 </div>
 
 ### 세션 자료
-- [Notion Link](https://messy-farmer-90e.notion.site/Spark-MLlib-with-MLflow-5a570324349f4aa38ca94c86cc68e7b7)
+- [Spark ML Colab 실습](https://colab.research.google.com/drive/1lzGNjXSlRtB1zRhezdQ26wrhkcFftS1U?usp=sharing)
+- [MLflow Colab 실습](https://colab.research.google.com/drive/1esIKRS65oLUI3x2wK42K_8jUdsUzwr8h?usp=share_link) 
+- [2023.04 발제 자료](https://messy-farmer-90e.notion.site/Spark-MLlib-with-MLflow-5a570324349f4aa38ca94c86cc68e7b7)
+- [2024.03 발제 자료](https://messy-farmer-90e.notion.site/SparkML-daabb974d3584f2babc9ab7916c6edec?pvs=4)
 
 ### 참조 및 자료 출처
 - 『러닝 스파크:아파치 스파크를 이용한 데이터 분석 및 머신러닝 알고리즘』, 제이펍(2022)
